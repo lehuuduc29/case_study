@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <style>
+        body {
+            background-color: rgb(177, 122, 19);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>MoveSquare</b></h1>
+    <div><canvas id="myCanvas" width="400" height="400"
+            style="border: 2px solid blue; background-color: black;"></canvas>
+        <br><br>
+        <button type="button" onclick="start()">Start</button>
+        <button type="button" onclick="reset()">Reset</button>
+        <br>
+        <h2>
+            <p id="result"></p>
+        </h2>
+    </div>
+</body>
+<script src="Vecto.js"></script>
+<script src="Food.js"></script>
+<script src="Square.js"></script>
+<script src="main.js"></script>
+</html>
